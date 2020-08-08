@@ -11,6 +11,7 @@ def merge(arrA, arrB):
     # vars for len
     lenA, lenB = len( arrA ), len( arrB )
 
+    # nested functions for DRY
     def mrgA():
         nonlocal a_index
         merged_arr.append( arrA[ a_index ] )
